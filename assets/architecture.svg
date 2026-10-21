@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1060" viewBox="0 0 1440 1060" role="img" aria-labelledby="title desc">
+<title id="title">Custom Jewellery Pricing — Technical Architecture</title>
+<desc id="desc">WordPress administration and WooCommerce integration connect to a PHP pricing engine, configuration and metadata persistence, batch price updates, weight management, and diagnostic tools.</desc>
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#101c35"/><stop offset="1" stop-color="#15243d"/></linearGradient>
+ <linearGradient id="top" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#38bbc4"/><stop offset="1" stop-color="#9183ed"/></linearGradient>
+ <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10z" fill="#70c7d1"/></marker>
+ <style>text{font-family:Inter,Arial,sans-serif} .subtitle{fill:#9fb4ce;font-size:19px}.section{font-size:16px;font-weight:700;letter-spacing:1.3px;fill:#7bd5df}.head{font-size:21px;font-weight:700;fill:#f1f6ff}.small{font-size:16px;fill:#b9cce0}.muted{font-size:14px;fill:#a9bad0} .arrow{fill:none;stroke:#70c7d1;stroke-width:2.6;marker-end:url(#arrow)} .arrow2{fill:none;stroke:#938ce2;stroke-width:2.3;stroke-dasharray:7 6;marker-end:url(#arrow)}</style>
+</defs>
+<rect width="1440" height="1060" fill="url(#bg)"/>
+<rect x="0" y="0" width="1440" height="9" fill="url(#top)"/>
+<text x="80" y="84" font-weight="800" font-size="39" fill="#f5f8ff">Custom Jewellery Pricing</text>
+<text x="80" y="119" class="subtitle">Technical architecture · WordPress / WooCommerce pricing engine</text>
+<rect x="80" y="147" width="1280" height="1" fill="#304562"/>
+
+<text x="80" y="188" class="section">01  ADMINISTRATION &amp; COMMERCE</text>
+<rect x="80" y="208" width="405" height="125" rx="15" fill="#1d3150" stroke="#395574" stroke-width="1.6"/>
+<rect x="80" y="208" width="6" height="125" rx="3" fill="#55c7d0"/>
+<text x="104" y="242" class="head">WordPress administration</text>
+<text x="104" y="273" class="small">Settings · Product management</text>
+<text x="104" y="298" class="small">Diagnostics · Import / export</text>
+<rect x="517" y="208" width="405" height="125" rx="15" fill="#1d3150" stroke="#395574" stroke-width="1.6"/>
+<rect x="517" y="208" width="6" height="125" rx="3" fill="#938ce2"/>
+<text x="541" y="242" class="head">WooCommerce catalogue</text>
+<text x="541" y="273" class="small">Variable products · Attributes</text>
+<text x="541" y="298" class="small">Product and variation metadata</text>
+<rect x="954" y="208" width="406" height="125" rx="15" fill="#1d3150" stroke="#395574" stroke-width="1.6"/>
+<rect x="954" y="208" width="6" height="125" rx="3" fill="#5eacd9"/>
+<text x="978" y="242" class="head">Admin interactions</text>
+<text x="978" y="273" class="small">JavaScript · Authenticated AJAX</text>
+<text x="978" y="298" class="small">Price / weight update actions</text>
+<text x="80" y="388" class="section">02  PRICING &amp; BUSINESS RULES</text>
+<rect x="80" y="408" width="405" height="166" rx="15" fill="#1d3150" stroke="#395574" stroke-width="1.6"/>
+<rect x="80" y="408" width="6" height="166" rx="3" fill="#55c7d0"/>
+<text x="104" y="442" class="head">Configuration &amp; inputs</text>
+<text x="104" y="473" class="small">Global and product-level formulas</text>
+<text x="104" y="498" class="small">Material rates · Labour · Options</text>
+<text x="104" y="523" class="small">Weights · Variation attributes</text>
+<rect x="517" y="408" width="405" height="166" rx="15" fill="#1d3150" stroke="#395574" stroke-width="1.6"/>
+<rect x="517" y="408" width="6" height="166" rx="3" fill="#938ce2"/>
+<text x="541" y="442" class="head">PHP pricing engine</text>
+<text x="541" y="473" class="small">Material classification</text>
+<text x="541" y="498" class="small">Formula selection / fallback</text>
+<text x="541" y="523" class="small">Calculation · Validation · Rounding</text>
+<rect x="954" y="408" width="406" height="166" rx="15" fill="#1d3150" stroke="#395574" stroke-width="1.6"/>
+<rect x="954" y="408" width="6" height="166" rx="3" fill="#5eacd9"/>
+<text x="978" y="442" class="head">Update coordinator</text>
+<text x="978" y="473" class="small">Individual / multiple products</text>
+<text x="978" y="498" class="small">Skipped-variation reporting</text>
+<text x="978" y="523" class="small">Grouped WooCommerce price updates</text>
+<path d="M282 333 V405" class="arrow"/>
+<path d="M720 333 V405" class="arrow"/>
+<path d="M1157 333 V405" class="arrow"/>
+<path d="M485 491 H514" class="arrow"/>
+<path d="M922 491 H951" class="arrow"/>
+<text x="80" y="627" class="section">03  PERSISTENCE &amp; PLATFORM</text>
+<rect x="80" y="647" width="405" height="168" rx="15" fill="#1d3150" stroke="#395574" stroke-width="1.6"/>
+<rect x="80" y="647" width="6" height="168" rx="3" fill="#55c7d0"/>
+<text x="104" y="681" class="head">WordPress settings &amp; metadata</text>
+<text x="104" y="712" class="small">wp_options · wp_postmeta</text>
+<text x="104" y="737" class="small">Configured formulas / pricing inputs</text>
+<text x="104" y="762" class="small">Variation weights and product data</text>
+<rect x="517" y="647" width="405" height="168" rx="15" fill="#1d3150" stroke="#395574" stroke-width="1.6"/>
+<rect x="517" y="647" width="6" height="168" rx="3" fill="#938ce2"/>
+<text x="541" y="681" class="head">WooCommerce persistence</text>
+<text x="541" y="712" class="small">Price and regular-price metadata</text>
+<text x="541" y="737" class="small">Cache and transient invalidation</text>
+<text x="541" y="762" class="small">Parent-product synchronization</text>
+<rect x="954" y="647" width="406" height="168" rx="15" fill="#1d3150" stroke="#395574" stroke-width="1.6"/>
+<rect x="954" y="647" width="6" height="168" rx="3" fill="#5eacd9"/>
+<text x="978" y="681" class="head">Diagnostics and operations</text>
+<text x="978" y="712" class="small">Custom error-log table</text>
+<text x="978" y="737" class="small">Profiler · JSON import/export</text>
+<text x="978" y="762" class="small">WP hooks for deferred weight tasks</text>
+<path d="M282 574 V644" class="arrow"/>
+<path d="M1157 574 V610 H720 V644" class="arrow"/>
+<path d="M1157 574 V644" class="arrow2"/>
+<path d="M517 729 H489" class="arrow2"/>
+<path d="M954 729 H925" class="arrow2"/>
+<rect x="80" y="860" width="1280" height="121" rx="16" fill="#1a2d48" stroke="#47617c"/>
+<text x="108" y="893" class="section">ENGINEERING REVIEW PRIORITIES</text>
+<text x="108" y="925" class="small">Expression evaluation (eval)   ·   AJAX CSRF validation   ·   Failed calculations   ·   Direct SQL compatibility</text>
+<text x="108" y="950" class="muted">Architecture is conceptual. Implementation is confirmed; end-to-end security and runtime performance are not certified.</text>
+<text x="80" y="1020" class="muted">Documentation-only public showcase · Source code and client pricing data remain private</text>
+</svg>
