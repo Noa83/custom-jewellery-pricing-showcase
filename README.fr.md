@@ -76,6 +76,32 @@ Voir les [défis techniques et choix d'implémentation](docs/technical-challenge
 
 *Les documents techniques détaillés sont rédigés en anglais.*
 
+## Captures d’écran
+
+### Configuration globale des prix
+
+Cette capture montre l’interface de configuration globale du plugin, avec notamment :
+
+- les formules de calcul configurables,
+- les paramètres matières et coefficients,
+- les prix des options,
+- les outils de test de formule,
+- et les actions de mise à jour en masse des prix.
+
+![Configuration globale des prix](assets/screenshots/01-global-pricing-settings.png)
+
+### Gestion tarifaire par produit
+
+Cette capture montre la gestion des prix au niveau des produits WooCommerce, avec notamment :
+
+- les volumes de variations par produit,
+- les formules spécifiques à certains produits,
+- la configuration des poids,
+- les alertes liées aux données manquantes,
+- et les actions directes de mise à jour des prix.
+
+![Gestion tarifaire par produit](assets/screenshots/02-product-pricing-management.png)
+
 ## Confidentialité
 
 Cette étude de cas ne publie ni le code source privé, ni les prix réels de la cliente, ni les paramètres commerciaux confidentiels, ni des informations permettant d'identifier ses clients.

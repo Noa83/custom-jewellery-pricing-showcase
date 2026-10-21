@@ -111,6 +111,13 @@ The selection logic follows this hierarchy:
 
 The material category can also influence the numerical values used within the expression.
 
+### Variation volume overview
+
+This screen highlights the operational context of the plugin: some WooCommerce products contain several hundred to several thousand variations, with certain products reaching more than 4,500 variations.
+
+This illustrates why manual price maintenance was impractical and why bulk calculation and update mechanisms were required.
+
+![Variation volume overview](../assets/screenshots/03-product-list-variation-volume.png)
 ---
 
 ## 5. Simplified Pricing Example

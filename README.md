@@ -74,6 +74,32 @@ See [Technical Challenges & Engineering Decisions](docs/technical-challenges.md)
 - [Pricing Engine](docs/pricing-engine.md) — Business inputs, formula selection, variation processing and persistence.
 - [Technical Challenges](docs/technical-challenges.md) — Trade-offs, validation priorities and possible improvements.
 
+## Screenshots
+
+### Global pricing configuration
+
+This screen shows the plugin's global pricing configuration interface, including:
+
+- configurable pricing formulas,
+- material and coefficient settings,
+- option pricing,
+- formula test tools,
+- and bulk price update actions.
+
+![Global pricing configuration](assets/screenshots/01-global-pricing-settings.png)
+
+### Product pricing management
+
+This screen shows product-level pricing management for WooCommerce products, including:
+
+- product variation volumes,
+- product-specific pricing formulas,
+- weight configuration,
+- validation warnings for missing data,
+- and direct price update actions.
+
+![Product pricing management](assets/screenshots/02-product-pricing-management.png)
+
 ## Confidentiality
 
 This documentation does not include the private application source code, actual client prices, proprietary commercial settings or identifying customer information.
